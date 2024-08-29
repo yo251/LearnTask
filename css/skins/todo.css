@@ -1,0 +1,7 @@
+.todo{
+    display: flex;
+    background-color: var(--background-todo);
+    flex-direction: column;
+    width: fit-content;
+    min-width: var(--todo-min-width);
+}

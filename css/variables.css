@@ -1,0 +1,24 @@
+:root{
+    /* color*/
+    --background-todo: hsl(2, 50%, 70%);
+    /* --todo-background-personal: ;
+    --todo-border: ; */
+    /*  spacing*/
+    /*  dimensions*/
+    --current-width: 100%;
+    --current-height: 100%;
+    --font-family-main: helvatic, Arial;
+    --font-family-cute: consolas;
+    /* --schedule-view:; */
+    --background-todo-count: hsl(335, 83%, 49%);
+    --text-todo-count: hsl(25, 0%, 94%);
+    --font-family-todo-count:var(--font-family-cute);
+    --schedules-container-width:  calc(0.6 * var(--current-width));
+    --timeline-width: 0.1em;
+    --timeline-holder-width: 11%;
+    --timestamp-width: 100%;
+    --complete-checkbox: ;
+    --side-bar-width: 30%;
+    /* checkbox width + min description width + spacing*/
+    --todo-min-width: 40%;
+}

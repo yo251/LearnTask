@@ -1,0 +1,97 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    font: bold 1em helavtic, sans-serif;
+    overflow: hidden;
+}
+.app{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.highlight, div, header{
+    /* border: 1px dashed rgb(230, 215, 15); */
+}
+.days_list{
+    height: fit-content;
+    width: 100%;
+    overflow: scroll;
+}
+.day_todos_view{
+    display: grid;
+    grid-template-columns: var(--timeline-holder-width) auto;
+    grid-template-rows: repeat(2, auto);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    margin-left: 1px;
+    row-gap: 0;
+}
+.day_todos_header{
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    padding: 3% 3%;
+
+    border: 2px solid ;
+    border-radius: 5px;
+    border-bottom-right-radius: 18px;
+}
+#day_class-label{
+    display: inline-block;
+}
+#day_class{
+    padding-left: 15px;
+    border: 2px solid rgb(11, 65, 65);
+    width: 35px;
+    border-radius: 60px;
+}
+.todos_count{
+    display: inline-block;
+    --todos-count-hight: 1.1rem;
+    background-color: var(--background-todo-count);
+    color: var(--text-todo-count);
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: var(--font-family-todo-count);
+    height: var(--todos-count-hight);
+    width: var(--todos-count-hight);
+    text-align: center;
+    border-radius: 50%;
+}
+.timeline_holder{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 2;
+    margin-left: 1%;
+    position: relative;
+    justify-content: center;
+}
+.timeline{
+    display: block;
+    background-color: black;
+    position: absolute;
+    margin-left: calc(50% - var(--timeline-width));
+    height: 100%;
+    width: var(--timeline-width);
+    z-index: -1;
+}
+.timestamp{
+    --timestamp-width: clac(--timeline-holder-width
+    + 1px);
+    width: var(--timestamp-width);
+    height: var(--timestamp-width);
+    border: 2px solid rgb(38, 61, 88);
+    border-radius: 50%;
+}
+.todos_container{
+    display: flex;
+    grid-column: 2;
+    grid-row: 2;
+    background-color: bisque;
+    width: var(--schedules-container-width);
+}
+

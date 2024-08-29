@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo Startup</title>
+    <link rel="stylesheet" href="./../../css/skins/todo.css">
+    <link rel="stylesheet" href="./../../css/variables.css">
+    <link rel="stylesheet" href="./../../css/style.css">
+</head>
+<body>
+        <!-- <div class="menubar"></div>
+        <div class="sidebar"></div>
+        <div class="navbar"></div> -->
+        <div class="days_list">
+            <div class="day_todos_view">
+                <header class="day_todos_header">
+                    <!--        day_todos_view header 
+                    contains 
+                    1. day class
+                    2. how many todos are in the day
+                    3. a switch to choosing between overling either timestamp 
+                    or completence_status (empty circle if todo isn't completed / che)of each todo,-->
+                    <!-- Todo:  day number -->
+                    <label id="day_class-label" for="day_class">
+                        Day <input type="number" value="1" name="day_class" id="day_class" min="1" max="31">
+                    </label>
+                    <!-- Todo:  todos count -->
+                    todos <span class="todos_count">1</span>
+                    <!-- Todo:  timestamp  -->
+                </header>
+                <div class="timeline_holder">
+                    <!-- sample timestamp -->
+                    <div class="timestamp"></div>
+                    <!-- check sample -->
+                    <!-- <div class="check_state"></div> -->
+                    <div class="timeline"></div>
+                </div>
+                <div class="todos_container">
+                    <div class="todo">
+                        <div class="todo-description"></div>
+                        <!--  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

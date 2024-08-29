@@ -1,0 +1,30 @@
+doc:
+    ☐ create the documentation files
+design:
+    UI:
+        wireframes:
+            general:
+                ☐ menubar
+                    note | use a uniqe way to select each date
+                    ☐ current  year 
+                    ☐ current  month 
+                    ☐ current  week 
+                ☐ sidebar:
+                    ☐ todos:
+                        ☐ year
+                        ☐ month
+                        ☐ day
+                    ☐calender view
+                        ☐ year select
+                        ☐ month select
+                        ☐ week select
+                ☐ navbar:
+            daily todos:
+                ☐ day_todos_view
+                    ✔ day_todos_header @done(24-08-24 23:30)
+                    ✔ timline holder @done(24-08-24 23:50)
+                    ✔ timeline @done(24-08-24 23:50)
+                    ☐ timestamp
+                    ☐ complete checkbox
+                ☐ day_todos_container
+                ☐ todo
